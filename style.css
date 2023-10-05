@@ -1,40 +1,48 @@
 html,body{
     margin: 0;
     padding:0;
-    background-color: aliceblue;
     scroll-behavior: smooth;
 }
 nav{
     background-color: rgba(11, 11, 245, 0.938);
     display: flex;
     align-items: center;
-    justify-content: center;
     position: fixed;
-    max-width:1200px ;
-    
-    
-
+    width: 100%;
+    align-content: center;
+    float:none
 }
 ul{
     display: flex;
     list-style-type: none;
     gap:150px;
-
+    width: 100%;
 }
 a{
-    font-size: 45px;
+    font-family: sans-serif;
     color: #e3e6e0;
     text-decoration: none;
+    
 }
 a:hover {
     color: rgb(6, 14, 14);
 
 }
 #s1{
-    width: 100%;
-    height: 700px;
+    width:100%;
     background-color: rgb(255, 0, 187);
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    
+}
+#s1 img{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 
+    padding-top: 100px;
+    
 }
 #s2{
     width: 100%;
@@ -42,9 +50,21 @@ a:hover {
     background-color: rgb(44, 211, 29);
     
 }
+#s2 img{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 1o0px;
+}
 #s3{
     width: 100%;
     height: 700px;
     background-color: rgb(255, 242, 0);
     
+}
+#s3 img{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 1o0px;
 }
